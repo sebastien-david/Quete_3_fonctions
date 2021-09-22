@@ -34,8 +34,13 @@ class Program {
 
        else if (operation == "modulo")
       {
-        Console.WriteLine(firstFloat + " - " + " ( " + firstFloat + " / " + secondFloat + " ) " + " * " + secondFloat + " = " + (Modulo (firstFloat, secondFloat)));
+        Console.WriteLine(firstFloat + " % " + secondFloat + " = " + (Modulo (firstFloat, secondFloat)));
       }
+        else
+         
+        {
+         Console.WriteLine("Please enter valid operation");
+         }
 
        }
         
